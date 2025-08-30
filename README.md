@@ -78,7 +78,7 @@ Loyiha ichida health_check endpoint mavjud, u DB bilan ulanishni tekshiradi va j
       "name": "Musharraf"
     }
   ]
-}
+} 
 ```
 
 ## 🚀 Deploy
