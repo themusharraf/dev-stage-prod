@@ -65,6 +65,20 @@ make run-prod
 make migrate
 ```
 
+## Docker command
+
+```bash
+# Development
+docker-compose -f docker/dev/docker-compose.dev.yml up --build
+
+# Staging
+docker-compose -f docker/stage/docker-compose.stage.yml up -d --build
+
+# Production
+docker-compose -f docker/prod/docker-compose.prod.yml up -d --build
+
+```
+
 ## 🔍 Health Check Endpoint
 
 Loyiha ichida health_check endpoint mavjud, u DB bilan ulanishni tekshiradi va joriy environment ni qaytaradi:
